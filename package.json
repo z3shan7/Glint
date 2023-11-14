@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "node-sass sass/main.scss css/style.css -w"
+    "watch": "node-sass sass/main.scss css/style.css -w",
+    "devServer": "live-server",
+    "start": "devServer watch"
   },
   "keywords": [],
   "author": "z3shan",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
   }
 }
